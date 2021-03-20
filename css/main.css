@@ -1,0 +1,35 @@
+
+.header {
+  position: relative;
+  color: white;
+}
+
+.archi-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.image {
+  position: relative;
+  color: white;
+
+}
+
+.house-text {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 10px;
+  background-color: black;
+}
+
+@media screen and (max-width: 575px) {
+  .custom-nav {
+    display: none;
+  }
+  .archit {
+    display: none;
+  }
+}
